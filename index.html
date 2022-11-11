@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+  <style></style>
+</head>
+
+<body>
+  <p id="fruts"></p>
+  <div class="container">
+    <div class="header">
+      <h2>Add a new Blog</h2>
+    </div>
+    <form action="#" class="form" id="from">
+      <div class="font-control">
+        <label class="label-name" for="Blog">Blog:</label>
+        <input class="Input defoult-input" type="text" name="Blog" value="Blod 4" disabled />
+      </div>
+      <div class="font-control">
+        <label class="label-name" for="Blog-body">Blog body:</label>
+        <textarea class="Input blog-input" id="Blog-body" name="Blog-body" maxlength="20"
+          minlength="2"></textarea>
+        <small class="disable error-text blog-validation">Text has to be between 2 and 20 characters long</small>
+      </div>
+      <div class="font-control">
+        <label class="label-name" for="author">Author:</label>
+        <input class="Input author-input" id="author" type="text" name="author"/>
+        <small class="disable error-text author-validation">The authors's name is required</small>
+      </div>
+      <div class="font-control">
+        <label class="label-name" for="number">Number:</label>
+        <input class="Input number-input" id="number" type="number" name="password"/>
+        <small class="disable error-text number-validation">A number is required</small>
+      </div>
+      <div class="font-control">
+        <label class="label-name" for="email">Email:</label>
+        <input class="Input email-input" id="email" type="email" name="email"/>
+        <small class="disable error-text email-validation">Invalid email address</small>
+      </div>
+      <input type="submit" class="btnSave" value="Save" />
+    </form>
+  </div>
+  <script src="https://kit.fontawesome.com/0af7f83e73.js" crossorigin="anonymous"></script>
+  <script src="./JavaScript.js"></script>
+  <script src="/task 4.js"></script>
+  <script src="./task5.js"></script>
+  <script></script>
+</body>
+
+</html>

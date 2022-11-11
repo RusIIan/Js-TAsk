@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #db60d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.header {
+  background-color: rgb(251, 240, 227);
+  color: #b8860e;
+  text-align: center;
+  padding: 10px;
+}
+.form {
+  padding: 20px 30px;
+}
+.font-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.Input {
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  padding: 8px;
+  font-size: 14px;
+  border-color: black;
+}
+.error-text {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: red;
+}
+.btnSave {
+  padding: 8px;
+  margin-left: 39%;
+  width: 18%;
+  border-radius: 5px;
+  font-size: 16px;
+  border: transparent;
+  background-color: #b8860e;
+}
+.btnSave:hover {
+  cursor: pointer;
+}
+.disable {
+  visibility: hidden;
+}
+.invalid-input {
+  border-color: red;
+  outline: red;
+}
+ 
+.defoult-input{
+  border: 2px solid;
+}
