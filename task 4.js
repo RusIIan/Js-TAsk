@@ -1,10 +1,7 @@
-// class Employee{
-//     constructor(name, salary, time) {
-//      this.name = name;
-//      this.salary = salary;
-//         this.time = time;
-// }
-
-// }
-// let employee = new Employee("Ruslan", 1500, 12.23);
-// console.log(employee)
+let frut = ["apple", "banana", "tomato", " orange "];
+let list = document.getElementById("fruts");
+data.forEach((item) => {
+  let li = document.createElement("li");
+  li.innerText = item;
+  list.appendChild(li);
+});

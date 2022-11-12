@@ -11,4 +11,5 @@ class Manager extends Employee {
     }
 }
 let man1 = new Manager('Ruslan', 3500, '10 years');
-man1.Hire();
+let man2 = new Manager("Fidan",2500,"5 years");
+man1.Hire(); man2.Hire();
