@@ -9,6 +9,12 @@ const authorValidation = document.querySelector(".author-validation");
 const numberValidation = document.querySelector(".number-validation");
 const emailValidation = document.querySelector(".email-validation");
 
+const image = document.createElement('img');
+image.setAttribute("src", "https://crocoder.dev/icon.png");
+image.style.width = "150px";
+image.style.marginLeft = "110px";
+const frm = document.querySelector(".form");
+frm.prepend(image);
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
